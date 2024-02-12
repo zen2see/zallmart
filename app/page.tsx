@@ -15,8 +15,8 @@ import GridOption from "@/components/GridOption"
 export default function Home() {
   return (
     <main>
-      <Header />
-      <div className='grid grid-cols-1 grid-flow-row-dense md:grid-cols-4'>
+      
+      <div className='grid grid-cols-1 grid-flow-row-dense md:grid-cols-4 gap-4'>
         <GridOption
           title='Sweet gifts for less'
           image={HeartBalloons.src}
@@ -72,9 +72,7 @@ export default function Home() {
           image={Lightning.src}
           className='bg-orange-200 H-64 col-span-2'
         />
-
       </div>
-
     </main>
   );
 }
